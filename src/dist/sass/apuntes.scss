@@ -1,0 +1,55 @@
+.Apuntes {
+    display: none;
+    background-color: #f5f1e3;
+    height: 80vh;
+    width: 40vw;
+    position: fixed;
+    top: 132px;
+    z-index: 10000;
+    right: 0px;
+    padding: 30px 30px;
+    &-header {
+      border-bottom: 1px solid #ff5a5b;
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      p {
+        font-size: 26px;
+        color: #707070;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0px;
+      }
+    }
+    &-Notes {
+      padding-top: 30px;
+      p {
+        color: #707070;
+        font-size: 15px;
+      }
+    }
+    &-scroll {
+      position: absolute;
+      left: 95%;
+      top: 99px;
+      height: 78%;
+      width: 15px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      .container {
+        height: 30%;
+        width: 10px;
+        border-radius: 20px;
+        background-color: #49affc;
+        padding: 0px;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+      .container:hover{
+        background-color: #1d9afa;
+      }
+    }
+  }

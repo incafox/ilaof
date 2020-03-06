@@ -1,0 +1,93 @@
+.icon-profe{
+    transition: .3s all;
+    /* width: 20px; */
+    width: 1.5vw;
+    border-radius: 50%;
+    border: 1px solid black; 
+    border-color: "black";
+    background: rgb(245, 241, 241) !important;
+}
+
+.icon-profe:hover{
+    transform: rotate(90deg);
+    margin-right: 15px !important;
+}
+
+.p-column-title{
+    color: rgb(163, 163, 187) !important;
+}
+
+.p-paginator.p-component.p-unselectable-text.p-paginator-bottom{
+    text-align: end !important;
+    margin-top: -10px !important;
+}
+
+.p-paginator-page.p-paginator-element.p-link{
+    background: white !important;
+    color: rgb(10, 9, 9) !important;
+    margin-left: 10px !important;
+    border-radius: 50% !important;
+    border: 1px solid black !important;
+    border-color: rgb(7, 7, 19) !important;
+}
+
+.p-paginator-page.p-paginator-element.p-link:hover{
+    background: blue !important;
+    color: white !important;
+    margin-left: 10px !important;
+    border-radius: 50% !important;
+}
+
+.p-paginator-prev.p-paginator-element.p-link{
+    border-radius: 50% !important;
+    border: 1px solid black !important;
+}
+
+.p-paginator-prev.p-paginator-element.p-link:hover{
+    border-radius: 50% !important;
+    background: blue !important;
+    color: white !important;
+}
+
+.p-paginator-next.p-paginator-element.p-link{
+    border-radius: 50% !important;
+    margin-left: 10px !important;
+    border: 1px solid black !important;
+}
+
+.p-paginator-next.p-paginator-element.p-link:hover{
+    border-radius: 50% !important;
+    background: blue !important;
+    color: white !important;
+}
+
+.p-paginator-icon.pi.pi-step-backward{
+    visibility: hidden;
+    pointer-events: none !important;
+    border-radius: 50% !important;
+}
+
+.p-paginator-icon.pi.pi-step-forward{
+    visibility: hidden;
+    pointer-events: none
+}
+
+.p-paginator.p-component.p-unselectable-text.p-paginator-bottom{
+    background: white !important;
+    height: 5rem !important;
+    padding-top: 1.5rem !important;
+    border-style: none !important;
+}
+
+.p-paginator-last.p-paginator-element.p-link{
+    pointer-events: none
+}
+
+.p-paginator-first.p-paginator-element.p-link{
+    pointer-events: none
+}
+
+.p-datatable-tfoot{
+    height: 10px !important;
+    display: none !important;
+}

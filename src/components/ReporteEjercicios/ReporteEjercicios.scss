@@ -1,0 +1,89 @@
+#reporteProfesor {
+
+  &.box{
+    background: white;
+    border-radius: 25px;
+    // border: 1px solid #707070;
+    color: #475f7b;
+    margin: 1em 2em 1em 2em;
+    padding: 0;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    vertical-align:middle;
+    width: 95%;
+  }
+  margin: 35px 1em;
+    .header{
+        font-size: 25px;
+        text-align: center;
+        padding: 25px 0px;
+    }
+    ul{
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  li {
+    width: 100%;
+    list-style: none;
+    background: transparent;
+    border-radius: 18px;
+    // border: 1px solid #707070;
+    color: #475f7b;
+    margin: 0 15px 0px 15px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    .left-image {
+      padding-top: 3px;
+      display: inline-block;
+      text-align: left;
+      width: 15%;
+      color: #172b4d;
+      border-radius: 100%;
+      img {
+        height: 100px;
+        border-radius: 100%;
+      }
+    }
+    .user-name {
+      color: #172b4d;
+      padding-top: 3px;
+      width: 15%;
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+      font-size: 18px;
+      color: #172b4d;
+    }
+    .box-model {
+      background: transparent;
+      border-radius: 30px;
+      // border: 1px solid #707070;
+      color: #475f7b;
+      margin: -25px 1em -0.5em 1em;
+      padding: 0;
+      box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      vertical-align:middle;
+      width: 65%;
+      .datos-curso {
+        color: #172b4d;
+        padding-top: 3px;
+        width: 45%;
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+        margin:25px 5px;
+      }
+      .texto-audio {
+        color: #172b4d;
+        padding-top: 3px;
+        width: 45%;
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+        margin:25px 5px;
+      }
+    }
+  }
+}

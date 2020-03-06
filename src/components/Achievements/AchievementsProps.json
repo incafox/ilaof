@@ -1,0 +1,22 @@
+{
+    "achievements":[
+        {"level":1,"state":"done"},
+        {"level":2,"state":"done"},
+        {"level":3,"state":"done"},
+        {"level":4,"state":"done"},
+        {"level":5,"state":"incomplete"},
+        {"level":6,"state":"incomplete"},
+        {"level":7,"state":"incomplete"},
+        {"level":8,"state":"incomplete"},
+        {"level":9,"state":"incomplete"},
+        {"level":10,"state":"incomplete"},
+        {"level":11,"state":"incomplete"},
+        {"level":12,"state":"incomplete"},
+        {"level":13,"state":"incomplete"},
+        {"level":14,"state":"incomplete"},
+        {"level":15,"state":"incomplete"},
+        {"level":16,"state":"incomplete"},
+        {"level":17,"state":"incomplete"},
+        {"level":18,"state":"incomplete"}
+    ]
+}

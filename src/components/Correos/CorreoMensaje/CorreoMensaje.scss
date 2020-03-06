@@ -1,0 +1,72 @@
+.correo-mensaje-component {
+  display: inline-block;
+  position: absolute;
+  width: 65%;
+  .top-box {
+    border-radius: 18px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    height: 500px;
+    padding: 25px;
+    position: relative;
+    .fa-chevronDown {
+      position: absolute;
+      left: 230px;
+      top: 33px;
+      color: #808080;
+    }
+    label {
+      font-weight: normal;
+      padding-right: 25px;
+    }
+    select {
+      padding: 5px 15px;
+      border-radius: 10px;
+      background: none;
+      border: 1px solid #808080;
+      width: 150px;
+      /* for Firefox */
+      -moz-appearance: none;
+      /* for Chrome */
+      -webkit-appearance: none;
+      &::-ms-expand {
+        display: none;
+      }
+    }
+    .message-body {
+      width: 100%;
+      border: none;
+      resize: none;
+      font-size: 18px;
+      &::placeholder {
+        font-size: 18px !important;
+      }
+    }
+  }
+  .bottom-box {
+    border-radius: 18px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    min-height: 200px;
+    padding: 25px;
+    margin-top: 25px;
+    position: relative;
+    .attachment-text {
+      color: #808080;
+    }
+    .fa-paperclip {
+      font-weight: normal;
+      color: #808080;
+      &:hover {
+        font-size: 18px;
+      }
+    }
+    input {
+      &#attachment {
+        display: none;
+      }
+    }
+    span {
+      display: inline-block;
+      margin: 5px 10px;
+    }
+  }
+}

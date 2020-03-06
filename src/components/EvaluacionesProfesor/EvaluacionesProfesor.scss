@@ -1,0 +1,147 @@
+.evaluaciones-profesor {
+  .top-list {
+    max-width: 1200px;
+    border-radius: 18px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    margin: 2em 2em;
+    padding: 25px;
+    .header {
+      position: relative;
+      padding: 0px 3% 0px 10%;
+      .text {
+        margin: 25px 25px;
+        width: 10%;
+      }
+      .fa-search {
+        position: relative;
+        top: 0px;
+        left: 50px;
+      }
+      .search {
+        margin: 25px 25px;
+        width: 50%;
+        border-radius: 5px;
+        border: 1px solid #707070;
+        height: 35px;
+        text-indent: 40px;
+        &::placeholder {
+          font-size: 18px !important;
+        }
+      }
+      .pages {
+        margin: 25px 25px;
+        width: 10%;
+      }
+      .button-left {
+        margin: 25px 5px;
+        width: 50px;
+        height: 35px;
+        background-color: white;
+        box-shadow: none;
+        border: 1px solid #707070;
+        border-radius: 5px;
+      }
+      .button-right {
+        margin: 25px 5px;
+        width: 50px;
+        height: 35px;
+        background-color: white;
+        box-shadow: none;
+        border: 1px solid #707070;
+        border-radius: 5px;
+      }
+    }
+    .list-item {
+      padding: 25px;
+      .star {
+        width: 15%;
+        display: inline-block;
+        color: orange;
+      }
+      .message {
+        width: 50%;
+        display: inline-block;
+      }
+      .date {
+        text-align: right;
+        width: 25%;
+        display: inline-block;
+      }
+    }
+  }
+  .bottom-list {
+    max-width: 1200px;
+    border-radius: 18px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    margin: 2em 2em;
+    padding: 25px;
+    .header {
+        position: relative;
+        padding: 0px 3% 0px 10%;
+        .text {
+          margin: 25px 25px;
+          width: 10%;
+        }
+        .fa-search {
+          position: relative;
+          top: 0px;
+          left: 50px;
+        }
+        .search {
+          margin: 25px 25px;
+          width: 50%;
+          border-radius: 5px;
+          border: 1px solid #707070;
+          height: 35px;
+          text-indent: 40px;
+          &::placeholder {
+            font-size: 18px !important;
+          }
+        }
+        .pages {
+          margin: 25px 25px;
+          width: 10%;
+        }
+        .button-left {
+          margin: 25px 5px;
+          width: 50px;
+          height: 35px;
+          background-color: white;
+          box-shadow: none;
+          border: 1px solid #707070;
+          border-radius: 5px;
+        }
+        .button-right {
+          margin: 25px 5px;
+          width: 50px;
+          height: 35px;
+          background-color: white;
+          box-shadow: none;
+          border: 1px solid #707070;
+          border-radius: 5px;
+        }
+      }
+    .list-item {
+      padding: 25px;
+      .circle {
+        width: 25px;
+        display: inline-block;
+        color: red;
+      }
+      .message {
+        width: 50%;
+        display: inline-block;
+        padding: 0px 25px;
+      }
+      .liga{
+        width: 15%;
+        display: inline-block;
+      }
+      .date {
+        text-align: right;
+        width: 25%;
+        display: inline-block;
+      }
+    }
+  }
+}

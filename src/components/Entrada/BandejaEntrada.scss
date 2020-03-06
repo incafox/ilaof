@@ -1,0 +1,110 @@
+.entrada-componente {
+  display: inline-block;
+  border-radius: 18px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  height: 900px;
+  position: relative;
+  vertical-align: top;
+  width: 70%;
+  .header {
+    padding: 25px;
+    font-size: 15px;
+    color: #808080;
+    .check-box {
+      size: 15px;
+    }
+    .trash {
+      padding: 7px 7px;
+      border: 1px solid #c7cfd6;
+      border-radius: 5px;
+      margin: 0px 10px;
+      font-size: 14px;
+    }
+    .mail {
+      font-size: 14px;
+      padding: 7px 7px;
+      border: 1px solid #c7cfd6;
+      border-radius: 5px;
+      margin: 0px 10px;
+    }
+    .folder {
+      font-size: 14px;
+      padding: 7px 7px;
+      border: 1px solid #c7cfd6;
+      border-radius: 5px;
+      margin: 0px 10px;
+    }
+    .tag {
+      font-size: 14px;
+      padding: 7px 7px;
+      border: 1px solid #c7cfd6;
+      border-radius: 5px;
+      margin: 0px 10px;
+    }
+    .search {
+      position: relative;
+      padding: 0px 15px;
+      #search-input {
+        text-indent: 45px;
+        background: white ;
+        width: 40%;
+        padding:5px;
+        border: 1px solid #c7cfd6;
+        font-size: 18px;
+        &::placeholder {
+          font-size: 18px;
+        }
+      }
+      .fa-search {
+        position: absolute;
+        left: 40px;
+        top: 0px;
+        font-size: 14px;
+      }
+    }
+    .page {
+      padding: 0px 25px;
+    }
+  }
+  .lista {
+    padding: 25px;
+    height: 150px;
+    position: relative;
+    .check-box {
+      padding: 0px 15px;
+    }
+    .star {
+      padding: 0px 15px;
+      color: #ff9500;
+      font-size: 25px;
+    }
+    .image {
+      padding: 0px 15px;
+      img {
+        border-radius: 100%;
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .message {
+      display: inline-block;
+      padding: 15px 15px;
+      vertical-align: middle;
+      font-size: 15px;
+      .t1{
+        font-size: 15px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+      }
+      .t2{
+        font-size: 13px;
+      }
+    }
+    .date {
+      padding: 0px 25px;
+      display: inline-block;
+      right: 0;
+      position: absolute;
+    }
+  }
+}

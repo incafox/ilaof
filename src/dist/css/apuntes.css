@@ -1,0 +1,72 @@
+.Apuntes {
+  display: none;
+  background-color: #f5f1e3;
+  height: 80vh;
+  width: 40vw;
+  position: fixed;
+  top: 132px;
+  z-index: 10000;
+  right: 0px;
+  padding: 30px 30px;
+}
+
+.Apuntes-header {
+  border-bottom: 1px solid #ff5a5b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.Apuntes-header p {
+  font-size: 26px;
+  color: #707070;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.Apuntes-Notes {
+  padding-top: 30px;
+}
+
+.Apuntes-Notes p {
+  color: #707070;
+  font-size: 15px;
+}
+
+.Apuntes-scroll {
+  position: absolute;
+  left: 95%;
+  top: 99px;
+  height: 78%;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+.Apuntes-scroll .container {
+  height: 30%;
+  width: 10px;
+  border-radius: 20px;
+  background-color: #49affc;
+  padding: 0px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.Apuntes-scroll .container:hover {
+  background-color: #1d9afa;
+}
+/*# sourceMappingURL=apuntes.css.map */

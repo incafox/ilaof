@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,cADU,CACV,UAAU,AAAA,CACN,gBAAgB,CAAE,OAAO,CAC5B",
+    "sources": [
+        "../../components/Content/BodyProfesor.scss"
+    ],
+    "names": [],
+    "file": "BodyProfesor.min.css"
+}

@@ -1,0 +1,98 @@
+#reporteProfesor {
+  margin: 35px 1em;
+}
+
+#reporteProfesor.box {
+  background: white;
+  border-radius: 25px;
+  color: #475f7b;
+  margin: 1em 2em 1em 2em;
+  padding: 0;
+  -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  vertical-align: middle;
+  width: 95%;
+}
+
+#reporteProfesor .header {
+  font-size: 25px;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+#reporteProfesor ul {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#reporteProfesor li {
+  width: 100%;
+  list-style: none;
+  background: transparent;
+  border-radius: 18px;
+  color: #475f7b;
+  margin: 0 15px 0px 15px;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+#reporteProfesor li .left-image {
+  padding-top: 3px;
+  display: inline-block;
+  text-align: left;
+  width: 15%;
+  color: #172b4d;
+  border-radius: 100%;
+}
+
+#reporteProfesor li .left-image img {
+  height: 100px;
+  border-radius: 100%;
+}
+
+#reporteProfesor li .user-name {
+  color: #172b4d;
+  padding-top: 3px;
+  width: 15%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #172b4d;
+}
+
+#reporteProfesor li .box-model {
+  background: transparent;
+  border-radius: 30px;
+  color: #475f7b;
+  margin: -25px 1em -0.5em 1em;
+  padding: 0;
+  -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  vertical-align: middle;
+  width: 65%;
+}
+
+#reporteProfesor li .box-model .datos-curso {
+  color: #172b4d;
+  padding-top: 3px;
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin: 25px 5px;
+}
+
+#reporteProfesor li .box-model .texto-audio {
+  color: #172b4d;
+  padding-top: 3px;
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin: 25px 5px;
+}
+/*# sourceMappingURL=ReporteEjercicios.css.map */

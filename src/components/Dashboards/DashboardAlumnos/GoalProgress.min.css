@@ -1,0 +1,47 @@
+svg{
+  position: relative;
+  z-index: 10;
+}
+.clsGoal-1 {
+  fill: #f2f4f4;
+}
+
+.clsGoal-2 {
+  fill: #fdac41;
+}
+
+.clsGoal-3,
+.clsGoal-5,
+.clsGoal-6,
+.clsGoal-7 {
+  fill: #475f7b;
+}
+
+.clsGoal-4 {
+  fill: #fff;
+}
+
+.clsGoal-5 {
+  font-size: 10px;
+}
+
+.clsGoal-5,
+.clsGoal-7 {
+  font-family: Rubik-Regular, Rubik;
+}
+
+.clsGoal-6 {
+  font-size: 15px;
+  font-family: SegoeUI, Segoe UI;
+}
+
+.clsGoal-7 {
+  font-size: 22px;
+}
+
+.clsGoal-8 {
+  fill: #304156;
+  font-size: 5px;
+  font-family: IBMPlexSans-Bold, IBM Plex Sans;
+  font-weight: 700;
+}

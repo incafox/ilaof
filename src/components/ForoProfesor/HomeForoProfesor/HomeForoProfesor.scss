@@ -1,0 +1,70 @@
+#home-foro-profesor {
+  &.box-model {
+    background: transparent;
+    border-radius: 18px;
+    // border: 1px solid #707070;
+    color: #475f7b;
+    margin: 70px 1em;
+    padding: 1.5em 2.5em;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    position: relative;
+  }
+  .box {
+    border: 1px solid #c7cfd6;
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
+  .dl-in {
+    display: inline-block;
+  }
+  .p-rl {
+    position: relative;
+  }
+  .btn-crear {
+    height: 55px;
+    float: right;
+    right: 120px;
+    button {
+      font-size: 20px;
+      position: absolute;
+      top: 15px;
+      border-radius: 10px;
+      border: none;
+      background-color: #025ee5;
+      color: white;
+      padding: 15px 35px;
+    }
+  }
+  .lista {
+    margin-top: 35px;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+
+        .foro-expirado {
+            position: absolute;
+            right: 350px;
+            top: 45px;
+          }
+          .fecha {
+            position: absolute;
+            right: 150px;
+            top: 45px;
+          }
+          .icon {
+            position: absolute;
+            right: 50px;
+            top: 45px;
+          }
+        list-style: none;
+        a {
+          color: #475f7b;
+          font-size: 18px;
+         
+        }
+      }
+    }
+  }
+}

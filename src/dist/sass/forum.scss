@@ -1,0 +1,177 @@
+.Forum {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #edeff2;
+  width: 100%;
+  &-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: #ffffff;
+    padding-top: 24vh;
+    padding-bottom: 40px;
+    &-box {
+      width: 60%;
+      background-color: #fafbfb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+      padding-bottom: 40px;
+      .title {
+        width: 90%;
+        text-align: left;
+        font-size: 3.1vh;
+        color: #727e8c;
+      }
+      &-print {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        .item {
+          display: flex;
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.24);
+          border-radius: 2px;
+          width: 100%;
+          padding: 5px;
+          padding-left: 40px;
+          color: #828d99;
+          cursor: pointer;
+          small {
+            font-size: 11px;
+          }
+          &-section1 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 60%;
+            p {
+              margin-bottom: 2px;
+              font-size: 15px;
+            }
+          }
+          &-section2 {
+            padding: 0px 10px;
+            .active {
+              color: #05cb04;
+              font-weight: 500;
+            }
+          }
+          &-section3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 10px;
+            p {
+              font-size: 14px;
+              margin-bottom: 0px;
+            }
+          }
+          &-section4 {
+            display: flex;
+            justify-content: flex-end;
+            margin-left: auto;
+            img {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-type2 {
+    p {
+      color: #727e8c;
+    }
+    &-box{
+        width: 70%;
+    }
+    .item {
+      padding-bottom: 100px;
+      padding-left: 15px;
+      padding-top: 10px;
+      cursor: default;
+      &-section1{
+          padding-top: 10px;
+          .Message{
+              padding-top: 30px;
+          }
+      }
+      &-logo {
+        padding: 10px;
+        img{
+            width: 35px;
+        }
+      }
+    }
+    .item-footer{
+        justify-content: flex-end;
+        cursor: defaulta;
+        .item-section1{
+            align-items: flex-end;
+            padding-right: 20px;
+            .Message{
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+    .MessageBox{
+        margin-top: 7vh;
+        width: 90%;
+        textarea{
+            width: 100%;
+            height: 20vh;
+            padding: 0px 20px;
+            padding-top: 40px;
+            border: 0px;
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+            color: #727E8C;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        textarea::placeholder{
+            color: #727E8C !important;
+            font-weight: 600 !important;
+            font-size: 14px !important;
+        }
+        select{
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-color: #707070;
+            border-radius: 5px;
+            padding: 0px 4px;
+            color: #727E8C;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        
+        button{
+            margin-top: 14vh;
+            margin-left: -7.5vw;
+            position: absolute;
+            border: 0px;
+            border-radius: 5px;
+            padding: 2px 7px;
+            background-color: #5A8DEE;
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+            box-shadow: 0px 2px 4px rgba(90, 142, 238, 1);
+        }
+        textarea:focus, select:focus{
+            outline-color: white !important;
+        }
+        button:focus
+        {
+            outline-color: transparent;
+        }
+    }
+  }
+}

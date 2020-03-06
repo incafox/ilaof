@@ -1,0 +1,197 @@
+#popup-foro.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+
+#popup-foro.popup ::-webkit-input-placeholder {
+  font-size: 18px !important;
+}
+
+#popup-foro.popup :-ms-input-placeholder {
+  font-size: 18px !important;
+}
+
+#popup-foro.popup ::-ms-input-placeholder {
+  font-size: 18px !important;
+}
+
+#popup-foro.popup ::placeholder {
+  font-size: 18px !important;
+}
+
+#popup-foro.popup .box {
+  height: 225px;
+  margin: 25px;
+}
+
+#popup-foro.popup .user-image {
+  border-radius: 100%;
+  left: 25px;
+  top: 0px;
+  height: 80px;
+}
+
+#popup-foro.popup .user-name {
+  left: 150px;
+  top: 25px;
+}
+
+#popup-foro.popup .current-date {
+  right: 50px;
+  top: 25px;
+}
+
+#popup-foro.popup .expira-label {
+  left: 0px;
+  top: 100px;
+  font-weight: normal;
+}
+
+#popup-foro.popup #fecha-expiracion {
+  left: 90px;
+  top: 100px;
+  border-radius: 15px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #707070;
+}
+
+#popup-foro.popup .grupo-label {
+  left: 0px;
+  top: 150px;
+  font-weight: normal;
+}
+
+#popup-foro.popup #grupo {
+  left: 90px;
+  top: 150px;
+  border-radius: 15px;
+  height: 50px;
+  background-color: white;
+}
+
+#popup-foro.popup #input-foro-titulo {
+  width: 950px;
+  border: none;
+}
+
+#popup-foro.popup #popup-textarea-body {
+  top: 55px;
+  height: 120px;
+  width: 950px;
+  border: none;
+  resize: none;
+}
+
+#popup-foro.popup .dot-menu {
+  right: 25px;
+  top: 25px;
+}
+
+#popup-foro.popup .dl-in {
+  display: inline-block;
+}
+
+#popup-foro.popup .p-rl {
+  position: relative;
+}
+
+#popup-foro.popup .p-a {
+  position: absolute;
+}
+
+#popup-foro.popup .answer-button {
+  margin: 15px;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  padding: 5px 15px;
+  margin: 15px 50px;
+}
+
+#popup-foro.popup .bg-green {
+  background-color: #05cb04;
+}
+
+#popup-foro.popup .-bg-red {
+  background-color: #ed0f1a;
+}
+
+#popup-foro.popup .bg-white {
+  background-color: #fff;
+}
+
+#popup-foro.popup .bg-blue {
+  background-color: #025ee5;
+}
+
+#popup-foro.popup .popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  padding-top: 50px;
+  max-height: 650px;
+  max-width: 1200px;
+  height: 600px;
+}
+
+#popup-foro.popup .popup_inner #expira-dias {
+  width: 100px;
+  position: absolute;
+  left: 90px;
+  top: 90px;
+  border-radius: 15px 0px 0px 15px;
+  height: 50px;
+  background-color: white;
+}
+
+#popup-foro.popup .popup_inner #expira-horas {
+  width: 100px;
+  position: absolute;
+  left: 189px;
+  top: 90px;
+  height: 50px;
+  background-color: white;
+}
+
+#popup-foro.popup .popup_inner #expira-minutos {
+  width: 100px;
+  position: absolute;
+  left: 285px;
+  top: 90px;
+  border-radius: 0px 15px 15px 0px;
+  height: 50px;
+  background-color: white;
+}
+
+#popup-foro.popup .popup_inner .crear-button {
+  height: 55px;
+  float: right;
+  right: 120px;
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  right: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #025ee5;
+  color: white;
+  padding: 15px 35px;
+}
+/*# sourceMappingURL=PopupForo.css.map */

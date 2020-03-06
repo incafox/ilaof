@@ -1,0 +1,163 @@
+.Goals {
+  position: fixed;
+  top: 29%;
+  margin-left: 55%;
+}
+
+.Goals p {
+  width: 100%;
+  margin-left: 20px;
+  text-align: left;
+  color: #727e8c;
+  font-size: 14px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.Modules {
+  background-color: #312563;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Modules-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: white;
+  width: 80%;
+  padding-top: 24vh;
+  padding-bottom: 20px;
+}
+
+.Modules-container .backPage {
+  height: 40px;
+  width: 70px;
+  position: absolute;
+  background: #49affc;
+  border-radius: 20px;
+  left: 13%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 7px #49aefcad;
+          box-shadow: 0px 0px 7px #49aefcad;
+}
+
+.Modules-container .backPage a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Modules-content {
+  width: 80%;
+  text-align: center;
+  margin-left: -68px;
+}
+
+.Modules-content p {
+  color: #475f7b;
+}
+
+.Modules-content .title {
+  font-size: 40px;
+}
+
+.Modules-content .title--number {
+  font-size: 58px;
+}
+
+.Modules-sessions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 61%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  border-bottom: 2px solid #707070;
+}
+
+.Modules-sessions p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Modules-sessions .sessionNumber {
+  color: #475f7b;
+  font-size: 38px;
+}
+
+.Modules-sessions .SesionLogo {
+  cursor: pointer;
+}
+
+.Modules-sessions div:first-child {
+  margin-top: -67px;
+}
+
+.Modules-sessions > div:last-child {
+  margin-top: -67px;
+}
+
+.Modules-footer {
+  padding-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #707070;
+  width: 61%;
+  margin: auto;
+}
+
+.Modules-footer p {
+  color: #475f7b;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.Modules-footer .ImgFooter1 {
+  width: 100px;
+}
+
+.Modules-footer .ImgFooter2 {
+  margin-top: 0%;
+}
+/*# sourceMappingURL=modules.css.map */

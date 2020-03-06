@@ -1,0 +1,12 @@
+.view{
+    height: 5rem;
+    transition: all 0.3s
+}
+
+.view:hover{
+    cursor: pointer;
+}
+
+.view2:hover{
+    cursor: pointer;
+}

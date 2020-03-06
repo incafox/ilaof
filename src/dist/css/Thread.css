@@ -1,0 +1,261 @@
+.foro-profesor-thread {
+  position: relative;
+  color: #455571;
+  font-size: 18px;
+  padding: 25px;
+}
+
+.foro-profesor-thread .thread-list {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  width: calc(75% - 50px);
+  margin: 25px;
+  padding-top: 25px;
+}
+
+.foro-profesor-thread .thread-list .thread-container {
+  position: relative;
+  height: 250px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  margin: 0px 25px 0px 25px;
+}
+
+.foro-profesor-thread .thread-list .thread-container .rounded-img {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+
+.foro-profesor-thread .thread-list .thread-container .rounded-img img {
+  border-radius: 100%;
+  height: 80px;
+}
+
+.foro-profesor-thread .thread-list .thread-container .user-description {
+  position: absolute;
+  top: 25px;
+  left: 175px;
+  width: 75%;
+}
+
+.foro-profesor-thread .thread-list .thread-container .user-description .mensaje {
+  margin-top: 50px;
+}
+
+.foro-profesor-thread .thread-list .thread-container .menu-options {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.foro-profesor-thread .thread-list .thread-container .menu-options .star {
+  padding: 0px 25px;
+}
+
+.foro-profesor-thread .thread-list .thread-container .menu-options .star img {
+  height: 25px;
+}
+
+.foro-profesor-thread .thread-list .thread-container .menu-options .triple img {
+  height: 25px;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread {
+  padding: 25px;
+  position: relative;
+  height: 250px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  margin: 0 25px 25px 25px;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread .missing-users {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread .missing-users button {
+  background: #025ee5;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 15px 35px;
+  margin: 15px;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread .missing-profesor {
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread .missing-profesor .user-description {
+  display: inline-block;
+  position: absolute;
+  right: 150px;
+  text-align: right;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread .missing-profesor .user-description .mensaje {
+  margin-top: 50px;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread .missing-profesor .rounded-img {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+}
+
+.foro-profesor-thread .thread-list .bottom-thread .missing-profesor .rounded-img img {
+  height: 80px;
+  border-radius: 100%;
+}
+
+.foro-profesor-thread .thread-list .comment-thread {
+  padding: 25px;
+  position: relative;
+  height: 350px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  margin: 0 25px 25px 25px;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .header-input .alumno-select {
+  position: relative;
+  display: inline-block;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .header-input .alumno-select .fa-chevron {
+  position: absolute;
+  top: 15px;
+  left: 220px;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .header-input .alumno-select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid gray;
+  border-radius: 15px;
+  height: 50px;
+  width: 250px;
+  background: white;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .header-input .alumno-select select:focus {
+  border: none;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .header-input .nombrados-label {
+  margin: 0px 25px;
+  display: inline-block;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .header-input .nombrados-button {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .header-input .nombrados-button button {
+  background: #025ee5;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 15px 35px;
+  margin: 15px;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .aportar-comentarios {
+  width: 100%;
+  height: 150px;
+  border: none;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .aportar-comentarios::-webkit-input-placeholder {
+  font-size: 18px !important;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .aportar-comentarios:-ms-input-placeholder {
+  font-size: 18px !important;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .aportar-comentarios::-ms-input-placeholder {
+  font-size: 18px !important;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .aportar-comentarios::placeholder {
+  font-size: 18px !important;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .enviar-button {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 250px;
+}
+
+.foro-profesor-thread .thread-list .comment-thread .enviar-button button {
+  background: #025ee5;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 35px;
+  margin: 15px;
+}
+
+.foro-profesor-thread .users-list {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  width: 25%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+}
+
+.foro-profesor-thread .users-list .user-container {
+  position: relative;
+  min-height: 150px;
+  padding: 25px;
+}
+
+.foro-profesor-thread .users-list .user-container .rounded-img {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+}
+
+.foro-profesor-thread .users-list .user-container .rounded-img img {
+  height: 80px;
+  border-radius: 100%;
+}
+
+.foro-profesor-thread .users-list .user-container .user-details {
+  position: absolute;
+  left: 120px;
+}
+
+.foro-profesor-thread .users-list .user-container .user-more {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+
+.foro-profesor-thread .users-list .user-container .user-more button {
+  background: #025ee5;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 35px;
+}
+/*# sourceMappingURL=Thread.css.map */

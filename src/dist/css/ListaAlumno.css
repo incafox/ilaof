@@ -1,0 +1,63 @@
+#listaAlumno.box-model {
+  background: transparent;
+  border-radius: 20px;
+  color: #475f7b;
+  margin: 70px 1em;
+  padding: 25px 1em 0.25em 1em;
+  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#listaAlumno.box-model .user-name {
+  font-size: 18px;
+  color: #172b4d;
+}
+
+#listaAlumno.box-model .linea-horizontal {
+  border: 1px solid #707070;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
+}
+
+#listaAlumno.box-model img {
+  width: 112px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+#listaAlumno.box-model li {
+  width: 100%;
+  max-width: 900px;
+  list-style: none;
+  background: transparent;
+  border-radius: 18px;
+  color: #475f7b;
+  margin: 0 auto 15px auto;
+  padding: 0.25em 1em;
+  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px;
+}
+
+#listaAlumno.box-model li .textLeft {
+  padding-top: 3px;
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+  color: #172b4d;
+  margin: 0;
+}
+
+#listaAlumno.box-model li .textRight {
+  color: #172b4d;
+  padding-top: 3px;
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+}
+/*# sourceMappingURL=ListaAlumno.css.map */

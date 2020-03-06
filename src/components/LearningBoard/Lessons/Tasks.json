@@ -1,0 +1,390 @@
+{
+    "tasks": [
+        {
+            "id": 0,
+            "type": "speak",
+            "title": "Reproduce y repite la oración",
+            "audio": "",
+            "text": "Be carefull with the knife",
+            "message": "Be carefull with the knife",
+            "wrong": "Be carefull with the knife",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 1,
+            "type": "sort_and_speak",
+            "title": "Reproduce, acomoda y repite la oración",
+            "audio": "",
+            "textCorrect": [
+                {
+                    "id": "1",
+                    "text": "The"
+                },
+                {
+                    "id": "2",
+                    "text": "stove"
+                },
+                {
+                    "id": "3",
+                    "text": "is"
+                },
+                {
+                    "id": "4",
+                    "text": "hot"
+                }
+            ],
+            "textWrong": [
+                {
+                    "id": "1",
+                    "text": "The"
+                },
+                {
+                    "id": "4",
+                    "text": "hot"
+                },
+                {
+                    "id": "2",
+                    "text": "stove"
+                },
+                {
+                    "id": "3",
+                    "text": "is"
+                }
+            ],
+            "message": "The stove is hot",
+            "wrong": "The stove is hot",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 2,
+            "type": "img__sort_and_speak",
+            "title": "Acomoda y pronuncia las palabras",
+            "audio": "",
+            "Order_Text_correct": [
+                {
+                    "id": "1",
+                    "text": "Cheese",
+                    "img": ""
+                },
+                {
+                    "id": "2",
+                    "text": "Chef",
+                    "img": ""
+                },
+                {
+                    "id": "3",
+                    "text": "Knife",
+                    "img": ""
+                },
+                {
+                    "id": "4",
+                    "text": "Stove",
+                    "img": ""
+                }
+            ],
+            "Order_Text_wrong": [
+                {
+                    "id": "3",
+                    "text": "Knife"
+                },
+                {
+                    "id": "2",
+                    "text": "Chef"
+                },
+                {
+                    "id": "1",
+                    "text": "Cheese"
+                },
+                {
+                    "id": "4",
+                    "text": "Stove"
+                }
+            ],
+            "message": "Orden correcto!",
+            "wrong": "Orden incorrecto",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 3,
+            "type": "alphabet_soup",
+            "title": "Encuentra las palabras",
+            "audio": "",
+            "words": "['slide','cook']",
+            "message": "Silde , Cook",
+            "wrong": "Sopa de letras incorrecto",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 4,
+            "type": "listen_and_sort",
+            "title": "Acomoda la oración",
+            "audio": "",
+            "textCorrect": [
+                {
+                    "id": "1",
+                    "text": "The"
+                },
+                {
+                    "id": "2",
+                    "text": "stove"
+                },
+                {
+                    "id": "3",
+                    "text": "is"
+                },
+                {
+                    "id": "4",
+                    "text": "hot"
+                }
+            ],
+            "textWrong": [
+                {
+                    "id": "1",
+                    "text": "The"
+                },
+                {
+                    "id": "4",
+                    "text": "hot"
+                },
+                {
+                    "id": "2",
+                    "text": "stove"
+                },
+                {
+                    "id": "3",
+                    "text": "is"
+                }
+            ],
+            "message": "The stove is hot",
+            "wrong": "The stove is hot",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 5,
+            "type": "crossword",
+            "title": "Realiza el crucigrama",
+            "crossword_lenght": 4,
+            "crossword_horizontal": [
+                {
+                    "title": "Se utiliza para cortar verduras"
+                },
+                {
+                    "title": "Se utiliza para comer sopa"
+                }
+            ],
+            "crossword_vertical": [
+                {
+                    "title": "Se utiliza para comer"
+                },
+                {
+                    "title": "Le da sabor a la comida"
+                }
+            ],
+            "crossword": {
+                "across": {
+                    "1": {
+                        "clue": "Se utiliza para cortar verduras",
+                        "answer": "KNIFE",
+                        "row": 1,
+                        "col": 0
+                    },
+                    "2": {
+                        "clue": "Se utiliza para comer sopa",
+                        "answer": "SPOON",
+                        "row": 3,
+                        "col": 3
+                    }
+                },
+                "down": {
+                    "1": {
+                        "clue": "Se utiliza para comer",
+                        "answer": "FORK",
+                        "row": 2,
+                        "col": 6
+                    },
+                    "2": {
+                        "clue": "Le da sabor a la comida",
+                        "answer": "PEPPER",
+                        "row": 0,
+                        "col": 4
+                    }
+                }
+            },
+            "message": "Significado: Cuchillo, Cocinero, Cuchara, tabla, Tenedor, Pimienta",
+            "wrong": "Crucigrama incorrecto",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 6,
+            "type": "listen_and_write",
+            "title": "Reproduce y escribe",
+            "audio": "",
+            "answer": "i like play games",
+            "message": "i like play games",
+            "wrong": "i like play games",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 7,
+            "type": "listen_and_select",
+            "title": "Reproduce y selecciona",
+            "audio": "",
+            "text": "The chef is coocking a '________' for dinner",
+            "words": [
+                "Cake",
+                "Soup",
+                "Chicken",
+                "Dog"
+            ],
+            "answer": "Chicken",
+            "message": "Significado: Pollo",
+            "wrong": "Incorrecto : Chicken",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 8,
+            "type": "listen_and_write_2",
+            "title": "Reproduce y escribe",
+            "audio": "",
+            "text": "The chef is coocking a '________' for dinner",
+            "answer": "Chicken",
+            "message": "Significado: Pollo",
+            "wrong": "Incorrecto : Chicken",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 9,
+            "type": "listen_and_select_wrong_word",
+            "title": "Quita la palabra erronea",
+            "audio": "",
+            "words": [
+                "There´s",
+                "a",
+                "Dog",
+                "in",
+                "the",
+                "Stove"
+            ],
+            "answer": "Dog",
+            "message": "There´s a chicken in the stove",
+            "wrong": "There´s a chicken in the stove",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 10,
+            "type": "listen_and_sort2",
+            "title": "Acomode el texto",
+            "audio": "",
+            "textCorrect": [
+                {
+                    "id": "1",
+                    "text": "Ther´s a Chicken in the stove"
+                },
+                {
+                    "id": "2",
+                    "text": "Ther´s a lot of beans"
+                },
+                {
+                    "id": "3",
+                    "text": "The chef Will cook all"
+                }
+            ],
+            "textWrong": [
+                {
+                    "id": "1",
+                    "text": "Ther´s a Chicken in the stove"
+                },
+                {
+                    "id": "3",
+                    "text": "The chef Will cook all"
+                },
+                {
+                    "id": "2",
+                    "text": "Ther´s a lot of beans"
+                }
+            ],
+            "message": "Ther´s a Chicken in the stove",
+            "wrong": "Ther´s a Chicken in the stove",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 11,
+            "type": "write_order",
+            "title": "Numera el texto en orden",
+            "audio": "",
+            "words": [
+                {
+                    "id": 1,
+                    "text": "Ther´s a Chicken in the stove"
+                },
+                {
+                    "id": 2,
+                    "text": "Ther´s a lot of beans"
+                },
+                {
+                    "id": 3,
+                    "text": "The chef Will cook all"
+                }
+            ],
+            "message": "There´s a chicken in the stove",
+            "wrong": "There´s a chicken in the stove",
+            "status": "incomplete",
+            "result": 0
+        },
+        {
+            "id": 12,
+            "type": "listen_and_select2",
+            "title": "Escucha y responde la pregunta",
+            "audio": "",
+            "text": "¿Qué sirvió el cocinero en la cacerola?",
+            "words": [
+                "Potato",
+                "Chicken",
+                "Onion",
+                "Rice"
+            ],
+            "answer": "Rice",
+            "message": "Rice!",
+            "wrong": "Rice",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id": 13,
+            "type": "read_and_write",
+            "title": "Responde acorde al texto",
+            "text": "French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves as a snack, French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves as a snack,French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves as a snack",
+            "question":"¿Cómo se comen generalmente las papas fritas?",
+            "answer": "generally eaten as part of lunch or dinner or by themselves as a snack",
+            "message": "generally eaten as part of lunch or dinner or by themselves as a snack",
+            "wrong": "generally eaten as part of lunch or dinner or by themselves as a snack",
+            "status": "incomplete",
+            "result": "0"
+        },{
+            "id": 14,
+            "type": "listen_and_write_3",
+            "title": "Responde acorde al audio",
+            "question":"¿Qué utensilio utiliza el chef?",
+            "answer": "A spatula",
+            "message": "A spatula",
+            "wrong": "A spatula",
+            "status": "incomplete",
+            "result": "0"
+        },
+        {
+            "id":15,
+            "type":"completed"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAA;EACd,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "../../components/Correos/Correos.scss"
+    ],
+    "names": [],
+    "file": "Correos.css"
+}

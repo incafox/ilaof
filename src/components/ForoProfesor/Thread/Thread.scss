@@ -1,0 +1,219 @@
+.foro-profesor-thread {
+  position: relative;
+  color: rgb(69, 85, 113);
+  font-size: 18px;
+  padding: 25px;
+
+  .thread-list {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    width: calc(75% - 50px);
+    margin: 25px;
+    padding-top: 25px;
+    .thread-container {
+      position: relative;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+      padding: 25px;
+      margin: 0px 25px 0px 25px;
+      .rounded-img {
+        position: absolute;
+        top: 25px;
+        left: 50px;
+        img {
+          border-radius: 100%;
+          height: 80px;
+        }
+      }
+      .user-description {
+        position: absolute;
+        top: 25px;
+        left: 175px;
+        width: 75%;
+        .nombre-correo {
+        }
+        .para-foro {
+        }
+        .mensaje {
+          margin-top: 50px;
+        }
+      }
+      .menu-options {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        .date {
+        }
+        .star {
+          padding: 0px 25px;
+          img {
+            height: 25px;
+          }
+        }
+        .triple {
+          img {
+            height: 25px;
+          }
+        }
+      }
+    }
+    .bottom-thread {
+      padding: 25px;
+      position: relative;
+      height: 250px;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+      padding: 25px;
+      margin: 0 25px 25px 25px;
+      .missing-users {
+        display: inline-block;
+        width: 50%;
+        position: relative;
+        button {
+          background: #025ee5;
+          border: none;
+          color: white;
+          border-radius: 50px;
+          padding: 15px 35px;
+          margin: 15px;
+        }
+      }
+      .missing-profesor {
+        display: inline-block;
+        position: absolute;
+        width: 50%;
+
+        .user-description {
+          display: inline-block;
+          position: absolute;
+          right: 150px;
+          text-align: right;
+          .mensaje {
+            margin-top: 50px;
+          }
+        }
+        .rounded-img {
+          display: inline-block;
+          position: absolute;
+          right: 30px;
+          img {
+            height: 80px;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+    .comment-thread {
+      padding: 25px;
+      position: relative;
+      height: 350px;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+      padding: 25px;
+      margin: 0 25px 25px 25px;
+      .header-input {
+        .alumno-select {
+            position: relative;
+          .fa-chevron {
+              position: absolute;
+              top: 15px;
+              left: 220px;
+          }
+          select {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            border: 1px solid gray;
+            border-radius: 15px;
+            height: 50px;
+            width: 250px;
+            background: white;
+            &:focus {
+              border: none;
+            }
+          }
+          display: inline-block;
+        }
+        .nombrados-label {
+          margin: 0px 25px;
+          display: inline-block;
+        }
+        .nombrados-button {
+          display: inline-block;
+          width: 50%;
+          position: relative;
+          button {
+            background: #025ee5;
+            border: none;
+            color: white;
+            border-radius: 50px;
+            padding: 15px 35px;
+            margin: 15px;
+          }
+        }
+      }
+      .aportar-comentarios {
+        width: 100%;
+        height: 150px;
+        border: none;
+        &::placeholder {
+          font-size: 18px !important;
+        }
+      }
+      .enviar-button {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 250px;
+        button {
+          background: #025ee5;
+          border: none;
+          color: white;
+          border-radius: 10px;
+          padding: 15px 35px;
+          margin: 15px;
+        }
+      }
+    }
+  }
+  .users-list {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    .user-container {
+      position: relative;
+      min-height: 150px;
+      padding: 25px;
+      .rounded-img {
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        img {
+          height: 80px;
+          border-radius: 100%;
+        }
+      }
+      .user-details {
+        position: absolute;
+        left: 120px;
+      }
+
+      .user-more {
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        button {
+          background: #025ee5;
+          border: none;
+          color: white;
+          border-radius: 10px;
+          padding: 15px 35px;
+        }
+      }
+    }
+  }
+}

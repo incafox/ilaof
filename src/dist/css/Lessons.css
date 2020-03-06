@@ -1,0 +1,1106 @@
+.Lessons {
+  background-color: #312563;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.Lessons .backPage {
+  height: 40px;
+  width: 70px;
+  position: absolute;
+  background: #49affc;
+  border-radius: 20px;
+  left: 13%;
+  top: 24vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 7px #49aefcad;
+          box-shadow: 0px 0px 7px #49aefcad;
+}
+
+.Lessons .backPage a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Lessons-container {
+  background: white;
+  width: 80%;
+  padding-top: 24vh;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Lessons-Completed {
+  text-align: center;
+}
+
+.Lessons-Completed p {
+  font-size: 34px;
+  color: #475f7b;
+  font-weight: 500;
+}
+
+.Lessons-Completed .title {
+  margin-top: 20px;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.Lessons-Completed .numeroftaks {
+  font-weight: 600;
+}
+
+.Lessons-Completed button {
+  padding: 5px 10px;
+  border: 0px;
+  border-radius: 10px;
+  color: #475f7b;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  background-color: #49affc;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+  color: white;
+  width: 140px;
+}
+
+.Lessons-Completed img {
+  width: 300px;
+  padding: 40px 0px;
+}
+
+.Task {
+  width: 80%;
+  padding: 10px 20px;
+}
+
+.Task-status {
+  padding: 0px 10px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Task-status-progress {
+  background-color: #ebebeb;
+  width: 85%;
+  height: 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.Task-status-progress-bar {
+  width: 3%;
+  height: 20px;
+  background-color: #49affc;
+  -webkit-box-shadow: 2px 0px 4px rgba(73, 175, 252, 0.705);
+          box-shadow: 2px 0px 4px rgba(73, 175, 252, 0.705);
+  border-radius: 20px;
+}
+
+.Task-status-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  color: #475f7b;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Task-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.Task-options button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  color: #475f7b;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Task-options-skip button {
+  background-color: #edeff2;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+  padding: 10px 30px;
+}
+
+.Task-options-check button {
+  background-color: #49affc;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+  color: white;
+  width: 140px;
+}
+
+.Task-options-check small {
+  position: absolute;
+  margin-top: -33px;
+  margin-left: -25px;
+  color: #475f7b;
+  font-size: 20px;
+}
+
+.Task-response {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  height: 50vh;
+  bottom: 0px;
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.Task-response .modalReport {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 30%;
+  left: 0px;
+  height: auto;
+  width: 100%;
+}
+
+.Task-response .modalReport-container {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Task-response .modalReport-container .title {
+  color: #49affc;
+  font-size: 32px;
+  margin-left: 60px;
+}
+
+.Task-response .modalReport-container .message {
+  color: #475f7b;
+  font-size: 17px;
+}
+
+.Task-response .modalReport-container textarea {
+  width: 90%;
+  height: 200px;
+  border-radius: 20px;
+  border-color: #ccc;
+  padding: 20px;
+}
+
+.Task-response .modalReport-container-footer {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.Task-response .modalReport-container-footer button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  width: 120px;
+  color: #475f7b;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  background-color: #edeff2;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+}
+
+.Task-response-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+}
+
+.Task-response-header button {
+  width: 140px;
+  height: 45px;
+  font-size: 24px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+}
+
+.Task-response-header .leave {
+  background-color: #ed0f1a;
+  color: white;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.Task-response-header .leave:hover {
+  background-color: #dd101a;
+}
+
+.Task-response-header .next {
+  background: #ffffff;
+  color: #49affc;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.Task-response-header .next:hover {
+  background-color: #f3f3f3;
+}
+
+.Task-response-content .title {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+}
+
+.Task-response-content .message {
+  color: white;
+  font-size: 18px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+}
+
+.Task-response-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 90%;
+  color: white;
+  font-size: 18px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.27);
+}
+
+.Task-response-footer p {
+  cursor: pointer;
+}
+
+.Task-sucessfull {
+  background-color: #61eb60;
+}
+
+.Task-wrong {
+  background-color: #f84952;
+}
+
+.TaskType-sound {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.1fr 4fr;
+      grid-template-columns: 1fr 0.1fr 4fr;
+  grid-auto-rows: minmax(100px, auto);
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0px;
+}
+
+.TaskType-sound-reproductor {
+  width: 120px;
+  height: 120px;
+  background-color: #025ee5;
+  -webkit-box-shadow: 0px 0px 4px #025ee5;
+          box-shadow: 0px 0px 4px #025ee5;
+  border-radius: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.TaskType-sound-reproductor:hover {
+  background-color: #0353ca;
+}
+
+.TaskType-sound-recording {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: #025ee5;
+  -webkit-box-shadow: 0px 0px 4px #025ee5;
+          box-shadow: 0px 0px 4px #025ee5;
+  border-radius: 20%;
+  cursor: pointer;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.TaskType-sound-recording img {
+  width: 18px;
+}
+
+.TaskType-sound-recording:hover {
+  background-color: #0353ca;
+}
+
+.TaskType-sound-text {
+  width: 90%;
+}
+
+.TaskType-sound-text input {
+  margin-left: 10px;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: #475f7b 0px solid;
+  border-radius: 20px;
+  color: #475f7b;
+  -webkit-box-shadow: 0px 4px 2px rgba(184, 184, 184, 0.8);
+          box-shadow: 0px 4px 2px rgba(184, 184, 184, 0.8);
+}
+
+.TaskType-sort {
+  padding: 10px;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 40px;
+}
+
+.TaskType-sort .wordContainer {
+  padding: 5px 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+  cursor: pointer;
+}
+
+.TaskType-sort .wordContainer p {
+  margin-bottom: 0px;
+}
+
+.TaskType-ImgSort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.TaskType-ImgSort-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.TaskType-ImgSort-container-item .Logo {
+  padding-bottom: 10px;
+}
+
+.TaskType-ImgSort-container-item .Logo img {
+  width: 150px;
+}
+
+.TaskType-ImgSort-container-item .MicrofoneContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.TaskType-ImgSort-container-item .MicrofoneContainer .Logo_CantSpeak {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px;
+  width: 20px;
+  height: 20px;
+  background-color: #ed0f1a;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.TaskType-ImgSort-container .TaskType-sound-recording {
+  margin-left: 40px;
+}
+
+.TaskType-ImgSort-Cards {
+  width: 100%;
+}
+
+.TaskType-ImgSort-Cards .TaskType-sort {
+  padding-top: 0px;
+}
+
+.TaskType-ImgSort-Cards .TaskType-sort .wordContainer {
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.TaskType-soup {
+  display: block;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.TaskType-soup #main {
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.TaskType-soup #puzzle {
+  border: 1px solid #edeff2;
+  border-top: 30px solid #edeff2;
+  border-bottom: 30px solid #edeff2;
+  border-radius: 20px;
+}
+
+.TaskType-soup #puzzle > div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.TaskType-soup .puzzleSquare {
+  height: 7vw;
+  width: 7vw;
+  text-transform: uppercase;
+  background-color: white;
+  border: 0;
+  font-size: 20px;
+  border: 1px solid #707070;
+  color: #475f7b;
+}
+
+@media only screen and (min-width: 600px) {
+  .TaskType-soup .puzzleSquare {
+    height: 3.5rem;
+    width: 3.5rem;
+    font: 2.5rem;
+  }
+}
+
+.TaskType-soup button::-moz-focus-inner {
+  border: 0;
+}
+
+.TaskType-soup #puzzle .selected {
+  background-color: #7091b8;
+}
+
+.TaskType-soup #puzzle .found {
+  background-color: #8898aa;
+  color: white;
+}
+
+.TaskType-soup #puzzle .solved {
+  background-color: purple;
+  color: white;
+}
+
+.TaskType-soup #puzzle .complete {
+  background-color: green;
+}
+
+.TaskType-soup #words {
+  max-width: 30rem;
+  padding: 0px 0px;
+  list-style-type: none;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  min-height: 500px;
+}
+
+.TaskType-soup #words li {
+  padding: 3px 0px;
+  font-size: 20px;
+  text-align: center;
+  color: #475f7b;
+}
+
+.TaskType-soup .word {
+  text-align: center;
+  border: none;
+  font-size: 1em;
+  width: 100%;
+  padding: 8px 0px;
+  margin-top: 10px;
+}
+
+.TaskType-soup .wordFound {
+  text-decoration: line-through;
+  color: white;
+  font-weight: 600;
+  background-color: #05cb04;
+}
+
+.TaskType-soup #result-message {
+  font-size: 1.2em;
+}
+
+.TaskType-crossword {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.TaskType-crossword .Crossword-list {
+  margin: auto;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px #707070 solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.TaskType-crossword .Crossword-list h2 {
+  color: #475f7b;
+  font-weight: 400;
+}
+
+.TaskType-crossword .Crossword-list li {
+  list-style: decimal;
+  color: #475f7b;
+}
+
+.TaskType-crossword .clues {
+  display: none;
+}
+
+.TaskType-crossword .Crossword {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.TaskType-crossword .Crossword text[dominant-baseline="hanging"] {
+  font-size: 70% !important;
+  fill: #475f7b !important;
+}
+
+.TaskType-crossword .Crossword svg {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.TaskType-crossword .Crossword input {
+  opacity: 0;
+}
+
+.TaskType-ListenWrite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.TaskType-ListenWrite-reproductor {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.TaskType-ListenWrite-reproductor img {
+  width: 80px;
+  height: 80px;
+  background-color: #025ee5;
+  -webkit-box-shadow: 0px 0px 4px #025ee5;
+          box-shadow: 0px 0px 4px #025ee5;
+  border-radius: 100%;
+  padding: 20px;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.TaskType-ListenWrite-reproductor:hover img {
+  background-color: #0353ca;
+}
+
+.TaskType-ListenWrite-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.TaskType-ListenWrite-text textarea {
+  width: 90%;
+  height: 200px;
+  border-radius: 20px;
+  border-color: #ccc;
+  padding: 20px;
+  border: 0px;
+  -webkit-box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.8);
+          box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.8);
+  color: #475f7b;
+  font-size: 18px;
+}
+
+.TaskType-ListenWrite-text textarea::-webkit-input-placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenWrite-text textarea:-ms-input-placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenWrite-text textarea::-ms-input-placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenWrite-text textarea::placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenSelect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.TaskType-ListenSelect .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.TaskType-ListenSelect .header p {
+  margin-left: 70px;
+}
+
+.TaskType-ListenSelect .words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.TaskType-ListenSelect .words .wordContainer {
+  padding: 5px 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+  cursor: pointer;
+  background: white;
+  -webkit-transition: background, color 0.3s, 0.1s;
+  transition: background, color 0.3s, 0.1s;
+}
+
+.TaskType-ListenSelect .words .wordContainer p {
+  margin-bottom: 0px;
+}
+
+.TaskType-ListenSelect .words .wordContainer:hover {
+  background: #49affc !important;
+  color: white !important;
+}
+
+.TaskType-ListenWrite2-text {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.TaskType-ListenWrite2-text textarea {
+  width: 90%;
+  height: 100px;
+  border-radius: 20px;
+  border-color: #ccc;
+  padding: 20px;
+  border: 0px;
+  -webkit-box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.8);
+          box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.8);
+  color: #475f7b;
+  font-size: 18px;
+}
+
+.TaskType-ListenWrite2-text textarea::-webkit-input-placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenWrite2-text textarea:-ms-input-placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenWrite2-text textarea::-ms-input-placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenWrite2-text textarea::placeholder {
+  color: #8898aa !important;
+  font-size: 18px !important;
+}
+
+.TaskType-ListenWrongWord {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+}
+
+.TaskType-ListenWrongWord-reproductor {
+  cursor: pointer;
+}
+
+.TaskType-ListenWrongWord-reproductor img {
+  width: 80px;
+  height: 80px;
+  background-color: #025ee5;
+  -webkit-box-shadow: 0px 0px 4px #025ee5;
+          box-shadow: 0px 0px 4px #025ee5;
+  border-radius: 100%;
+  padding: 20px;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.TaskType-ListenWrongWord-reproductor:hover img {
+  background-color: #0353ca;
+}
+
+.TaskType-ListenWrongWord .words {
+  margin-top: 0px;
+  width: 80%;
+}
+
+.TaskType-sort2 {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.TaskType-sort2-reproductor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: start;
+  height: 100%;
+}
+
+.TaskType-sort2 .TaskType-sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.TaskType-sort2 .TaskType-sort .wordContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.TaskType-WriteOrder .sentences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.TaskType-WriteOrder .sentences input {
+  border: 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.27);
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+.TaskType-WriteOrder .sentences .wordContainer {
+  margin-top: 0px;
+  width: 90%;
+}
+
+.TaskType-ListenSelect2 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.TaskType-ListenSelect2 .header p {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.TaskType-ReadWrite-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.TaskType-ReadWrite-header p {
+  color: #475f7b;
+}
+
+.TaskType-ReadWrite-header .header {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.TaskType-ListenWrite3 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.TaskType-ListenWrite3 .header p {
+  width: 80%;
+  margin-bottom: 0px;
+  color: #475f7b;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.TaskType-ListenWrite3 .header .TaskType-ListenWrite-reproductor {
+  width: 40%;
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=Lessons.css.map */

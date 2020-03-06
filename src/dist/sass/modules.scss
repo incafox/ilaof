@@ -1,0 +1,109 @@
+$LearningBoardBackground: #312563;
+$textColor: #475f7b;
+.Goals {
+  position: fixed;
+  top: 29%;
+  margin-left: 55%;
+  p {
+    width: 100%;
+    margin-left: 20px;
+    text-align: left;
+    color: #727e8c;
+    font-size: 14px;
+  }
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+.Modules {
+  background-color: $LearningBoardBackground;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    width: 80%;
+    padding-top: 24vh;
+    padding-bottom: 20px;
+    .backPage {
+      height: 40px;
+      width: 70px;
+      position: absolute;
+      background: #49affc;
+      border-radius: 20px;
+      left: 13%;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0px 0px 7px #49aefcad;
+      a {
+        display: flex;
+      }
+    }
+  }
+  &-content {
+    width: 80%;
+    text-align: center;
+    margin-left: -68px;
+    p {
+      color: $textColor;
+    }
+    .title {
+      font-size: 40px;
+    }
+    .title--number {
+      font-size: 58px;
+    }
+  }
+  &-sessions {
+    display: flex;
+    width: 61%;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: 2px solid #707070;
+    p {
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .sessionNumber {
+      color: $textColor;
+      font-size: 38px;
+    }
+    .SesionLogo {
+      cursor: pointer;
+    }
+  }
+  &-sessions div:first-child {
+    margin-top: -67px;
+  }
+  &-sessions > div:last-child {
+    margin-top: -67px;
+  }
+  &-footer {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #707070;
+    width: 61%;
+    margin: auto;
+    p {
+      color: $textColor;
+      font-size: 40px;
+      margin-bottom: 0px;
+    }
+    .ImgFooter1 {
+      width: 100px;
+    }
+    .ImgFooter2 {
+      margin-top: 0%;
+    }
+  }
+}

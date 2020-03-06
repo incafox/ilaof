@@ -1,0 +1,98 @@
+.correo-mensaje-component {
+  display: inline-block;
+  position: absolute;
+  width: 65%;
+}
+
+.correo-mensaje-component .top-box {
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  height: 500px;
+  padding: 25px;
+  position: relative;
+}
+
+.correo-mensaje-component .top-box .fa-chevronDown {
+  position: absolute;
+  left: 230px;
+  top: 33px;
+  color: #808080;
+}
+
+.correo-mensaje-component .top-box label {
+  font-weight: normal;
+  padding-right: 25px;
+}
+
+.correo-mensaje-component .top-box select {
+  padding: 5px 15px;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #808080;
+  width: 150px;
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+.correo-mensaje-component .top-box select::-ms-expand {
+  display: none;
+}
+
+.correo-mensaje-component .top-box .message-body {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 18px;
+}
+
+.correo-mensaje-component .top-box .message-body::-webkit-input-placeholder {
+  font-size: 18px !important;
+}
+
+.correo-mensaje-component .top-box .message-body:-ms-input-placeholder {
+  font-size: 18px !important;
+}
+
+.correo-mensaje-component .top-box .message-body::-ms-input-placeholder {
+  font-size: 18px !important;
+}
+
+.correo-mensaje-component .top-box .message-body::placeholder {
+  font-size: 18px !important;
+}
+
+.correo-mensaje-component .bottom-box {
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  min-height: 200px;
+  padding: 25px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.correo-mensaje-component .bottom-box .attachment-text {
+  color: #808080;
+}
+
+.correo-mensaje-component .bottom-box .fa-paperclip {
+  font-weight: normal;
+  color: #808080;
+}
+
+.correo-mensaje-component .bottom-box .fa-paperclip:hover {
+  font-size: 18px;
+}
+
+.correo-mensaje-component .bottom-box input#attachment {
+  display: none;
+}
+
+.correo-mensaje-component .bottom-box span {
+  display: inline-block;
+  margin: 5px 10px;
+}
+/*# sourceMappingURL=CorreoMensaje.css.map */
